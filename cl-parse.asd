@@ -7,4 +7,6 @@
   :version "0.0.1"
   :serial t
   :components ((:file "package")
-               (:file "cl-parse")))
+               (:file "stream")
+               (:file "generators")
+               (:file "combinators")))

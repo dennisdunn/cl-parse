@@ -1,9 +1,8 @@
 # cl-parse
-### _Your Name <your.name@example.com>_
 
-This is a project to do ... something.
+A simple parser combinator library for Common Lisp.
 
 ## License
 
-Specify license here
+See the LICENSE file in the repo.
 
