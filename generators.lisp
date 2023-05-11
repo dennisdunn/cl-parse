@@ -2,8 +2,14 @@
 
 (in-package #:cl-tiny-parse)
 
-(defun make-parser (str)
+(defun str (str)
   (lambda (stream)
-    (if (string= (peek-stream stream (length  str)) str)
-        (values (read-stream stream (length  str)))
+    (if (string= (peek stream (length str)) str)
+        (values (read stream (length str)))
+        nil)))
+
+(defun any-of-char (chars)
+  (lambda (stream)
+    (if (search (peek stream) chars)
+        (values (read stream))
         nil)))
