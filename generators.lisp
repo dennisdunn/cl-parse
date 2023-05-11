@@ -1,6 +1,6 @@
 ;;;; cl-parse.lisp
 
-(in-package #:cl-parse)
+(in-package #:cl-tiny-parse)
 
 (defun make-parser (str)
   (lambda (stream)

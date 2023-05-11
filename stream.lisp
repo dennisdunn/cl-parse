@@ -1,4 +1,4 @@
-(in-package #:cl-parse)
+(in-package #:cl-tiny-parse)
 
 (defclass parser-stream ()
     ((source :initarg :source

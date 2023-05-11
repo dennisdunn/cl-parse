@@ -1,4 +1,4 @@
-(in-package #:cl-parse)
+(in-package #:cl-tiny-parse)
 
 (defun any-of (&rest parsers)
     "Return the value of the first successful parser or nil if the parse fails."

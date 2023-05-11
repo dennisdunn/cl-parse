@@ -1,4 +1,4 @@
 ;;;; package.lisp
 
-(defpackage #:cl-parse
-  (:use #:cl))
+(defpackage #:cl-tiny-parse
+)
