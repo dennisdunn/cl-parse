@@ -1,6 +1,8 @@
 # cl-parse
 
-A simple parser combinator library for Common Lisp.
+The beguinnings of a simple parser combinator library for Common Lisp.
+
+Port the ideas from tiny-parse-js to lisp.
 
 ## License
 
